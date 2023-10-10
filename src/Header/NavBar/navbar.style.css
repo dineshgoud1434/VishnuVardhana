@@ -1,0 +1,30 @@
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rebeccapurple;
+    color: #fff;
+    opacity: 1;
+    width: 100%;
+    height: 80px;
+    position: absolute;
+    top: 0px;
+    /* padding: 0 30px; */
+  }
+  ul {
+    display: flex;
+  }
+  li {
+    list-style-type: none;
+    padding: 34px;
+  }
+  a {
+    text-decoration: none;
+  }
+  .navbar a {
+    color: #fff;
+  }
+  .navbar .logo {
+    font-weight: 800;
+    padding-left: 40px;
+  }
