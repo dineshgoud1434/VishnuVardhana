@@ -8,7 +8,7 @@ import {
   Heading,
 } from "./footerstyles";
 
-const img = "https://picsum.photos/200/200?grayscale";
+// const img = "https://picsum.photos/200/200?grayscale";
 const currentYear = new Date().getFullYear();
 const Footer = () => {
   return (
@@ -25,7 +25,7 @@ const Footer = () => {
             >
               VVRC
             </Heading>
-            <img src={img}></img>
+            {/* <img src={img}></img> */}
           </Column>
           
           <Column>
